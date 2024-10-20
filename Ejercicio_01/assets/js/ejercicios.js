@@ -32,7 +32,13 @@ export const contadorDePalabras = (cadena, palabra) => {
 
 
 /* 7) Programa una función que valide si una palabra o frase dada, es un palíndromo
- (que se lee igual en un sentido que en otro), pe. mifuncion("Salas") devolverá true.
+ (que se lee igual en un sentido que en otro), pe. mifuncion("Salas") devolverá true. */
+export const esPalindromo = (palabra) => {
+    palabra = palabra.toLowerCase();
+    return (palabraAlReves(palabra) == palabra)
+};
 
-8) Programa una función que elimine cierto patrón de caracteres de un texto dado, pe. 
+
+
+/* 8) Programa una función que elimine cierto patrón de caracteres de un texto dado, pe. 
 miFuncion("xyz1, xyz2, xyz3, xyz4 y xyz5", "xyz") devolverá  "1, 2, 3, 4 y 5. */
