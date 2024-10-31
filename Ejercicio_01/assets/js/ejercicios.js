@@ -53,6 +53,5 @@ export const eliminarParametro = (cadena) => {
             }
         }
     }
-
     return arrayDeNumeros.join(", ");
 };
