@@ -27,3 +27,11 @@
  - Programa una función que determine si un número es par o impar, pe. miFuncion(29) devolverá Impar. ✅
 
  - Programa una función para convertir grados Celsius a Fahrenheit y viceversa, pe. miFuncion(0,"C") devolverá 32°F. ✅
+
+ - Programa una función para convertir números de base binaria a decimal y viceversa, pe. miFuncion(100,2) devolverá 4 base 10.
+
+ - Programa una función que devuelva el monto final después de aplicar un descuento a una cantidad dada, pe.
+ miFuncion(1000, 20) devolverá 800.
+
+ - Programa una función que dada una fecha válida determine cuantos años han pasado hasta el día de hoy,
+ pe. miFuncion(new Date(1984,4,23)) devolverá 35 años (en 2020).
